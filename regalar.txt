@@ -1,0 +1,7 @@
+href="[^>"]+" lay link
+href="([^>"]+)" : lay gia tri trong chuoi hop le () dau dong lay group
+<a[^>]*>.(.*)</>a : lay gia tri chuoi can lay (<a gref="asndjkab">day la doan lay</a>
+? : lay co hoac k co, chay tu 0-1
+https://vnexpress.net
+ktra ten mien
+https?://[a-z0-9]+.[a-z]{2,}
