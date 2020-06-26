@@ -8,4 +8,5 @@
   <link rel="stylesheet" href="<?php echo DIR_TEMPLATE ?>admin/plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="<?php echo DIR_TEMPLATE ?>admin/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="<?php echo DIR_TEMPLATE ?>admin/dist/css/style.css">
   

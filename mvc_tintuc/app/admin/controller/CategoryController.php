@@ -14,6 +14,8 @@
             // ];
             
             // $this->model->saveItem($data);
+            $items = $this->model->listItems($this->request);
+            $this->view->items = $items;
             $this->view->render($this->folderview.'index');
         }
 
@@ -22,6 +24,10 @@
             $this->view->render($this->folderview.'form');
         }
         
+        public function save(){   
+            $this->model->saveItem($this->request);
+            URL::redirect('admin', 'category', 'index');
+        }
         
 
     }
